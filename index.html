@@ -2,126 +2,149 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Agente de IA para sua empresa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agente de IA - Automatize seu atendimento</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f6f8fa;
-      margin: 0;
-      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fb;
+      color: #333;
+      line-height: 1.6;
     }
-
     header {
-      background-color: #0a66c2;
+      background: linear-gradient(135deg, #1a73e8, #4e8df6);
       color: white;
-      padding: 20px;
       text-align: center;
+      padding: 60px 20px;
     }
-
-    .container {
-      max-width: 800px;
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+    section {
+      max-width: 960px;
       margin: 40px auto;
+      padding: 0 20px;
+    }
+    .benefits, .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .card {
       background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
-
-    h1, h2, h3 {
-      color: #0a66c2;
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
     }
-
-    ul {
-      margin-top: 20px;
-      padding-left: 20px;
+    .cta-section {
+      background-color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 1px solid #ddd;
     }
-
-    li {
+    .cta-section h3 {
+      font-size: 1.5rem;
       margin-bottom: 10px;
     }
-
-    form {
-      margin-top: 30px;
-      display: flex;
-      flex-direction: column;
-    }
-
-    input, textarea {
-      margin-bottom: 15px;
+    .cta-section input[type="email"] {
       padding: 12px;
       border-radius: 6px;
       border: 1px solid #ccc;
-      font-size: 16px;
+      width: 300px;
+      max-width: 100%;
+      margin-top: 15px;
     }
-
-    button {
-      background-color: #0a66c2;
+    .cta-section input[type="submit"] {
+      padding: 12px 24px;
+      background-color: #1a73e8;
       color: white;
-      padding: 15px;
-      font-size: 16px;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-left: 10px;
       cursor: pointer;
     }
-
-    button:hover {
-      background-color: #004b99;
-    }
-
     footer {
       text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #666;
+      padding: 30px 10px;
+      color: #888;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
+  <header>
+    <h1>Agentes de IA para sua empresa</h1>
+    <p>Automatize atendimentos, agendamentos e processos repetitivos com inteligência artificial personalizada.</p>
+  </header>
 
-<header>
-  <h1>Agente de IA para sua empresa</h1>
-</header>
+  <section>
+    <h2>O que é um Agente de IA?</h2>
+    <div class="features">
+      <div class="card">
+        <strong>✅ Atendimento automatizado</strong>
+        <p>Via WhatsApp, Instagram e e-mail com respostas rápidas e naturais.</p>
+      </div>
+      <div class="card">
+        <strong>✅ Agendamentos e notificações</strong>
+        <p>Organize compromissos e envie lembretes sem esforço humano.</p>
+      </div>
+      <div class="card">
+        <strong>✅ Processos de pagamento</strong>
+        <p>Cobranças, confirmações e integrações com sistemas financeiros.</p>
+      </div>
+      <div class="card">
+        <strong>✅ Backoffice automatizado</strong>
+        <p>Fluxos de trabalho operacionais otimizados com IA.</p>
+      </div>
+    </div>
+  </section>
 
-<div class="container">
-  <h2>Automatize processos e ganhe tempo com Inteligência Artificial</h2>
-  <p>Transforme o atendimento e a operação da sua empresa com soluções de IA integradas aos seus canais digitais como WhatsApp, Instagram e e-mail.</p>
+  <section>
+    <h2>Benefícios imediatos</h2>
+    <div class="benefits">
+      <div class="card">
+        <strong>🔹 Redução de erros</strong>
+        <p>Processos automáticos e auditáveis reduzem falhas humanas.</p>
+      </div>
+      <div class="card">
+        <strong>🔹 Economia de tempo</strong>
+        <p>Equipes mais livres para se dedicar ao que realmente importa.</p>
+      </div>
+      <div class="card">
+        <strong>🔹 Atendimento humanizado 24/7</strong>
+        <p>Sem pausas, sem ausências. Sua IA atende dia e noite.</p>
+      </div>
+      <div class="card">
+        <strong>🔹 Aumento da produtividade</strong>
+        <p>Operacional mais ágil e clientes mais satisfeitos.</p>
+      </div>
+    </div>
+  </section>
 
-  <h3>Funcionalidades:</h3>
-  <ul>
-    <li>✅ Atendimento virtual inteligente</li>
-    <li>✅ Agendamentos automáticos</li>
-    <li>✅ Processamento de pagamentos</li>
-    <li>✅ Automação de processos de backoffice</li>
-  </ul>
+  <section class="cta-section">
+    <h3>Solicite uma demonstração gratuita</h3>
+    <p>Descubra como a IA pode transformar seu atendimento hoje mesmo.</p>
+    <form action="mailto:syane.moreira@gmail.com" method="post" enctype="text/plain">
+      <input type="email" name="email" placeholder="Seu melhor e-mail" required />
+      <input type="submit" value="Quero uma demonstração" />
+    </form>
+  </section>
 
-  <h3>Benefícios para sua empresa:</h3>
-  <ul>
-    <li>✔ Redução de erros operacionais</li>
-    <li>✔ Atendimento mais rápido e humanizado</li>
-    <li>✔ Economia de tempo e recursos</li>
-    <li>✔ Foco no que realmente importa</li>
-  </ul>
-
-  <h3>Solicite uma consultoria gratuita:</h3>
-  <form action="https://formsubmit.co/syane.moreira@gmail.com" method="POST">
-    <input type="text" name="nome" placeholder="Seu nome" required>
-    <input type="email" name="email" placeholder="Seu e-mail" required>
-    <input type="text" name="empresa" placeholder="Nome da empresa" required>
-    <textarea name="mensagem" placeholder="Como podemos ajudar?" rows="4" required></textarea>
-
-    <!-- Anti-bot -->
-    <input type="hidden" name="_captcha" value="false">
-    <!-- Redirecionamento pós-envio -->
-    <input type="hidden" name="_next" value="https://obrigado.seusite.com">
-    
-    <button type="submit">Enviar</button>
-  </form>
-</div>
-
-<footer>
-  &copy; 2025 Agente de IA. Todos os direitos reservados.
-</footer>
-
+  <footer>
+    &copy; 2025 Agente de IA. Todos os direitos reservados.
+  </footer>
 </body>
 </html>
